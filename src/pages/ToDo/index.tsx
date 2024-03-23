@@ -14,6 +14,8 @@ export const ToDoList = React.memo(() => {
     }
 
     return (<div className="todo">
+        <div className="continer">
+
         <div className="todo_div1">
             <div className="div_h1">
                 <h1 className="h1"> My ToDo</h1>
@@ -59,6 +61,7 @@ export const ToDoList = React.memo(() => {
                     })}
                 </div>
             </div>
+        </div>
         </div>
     </div>)
 })
